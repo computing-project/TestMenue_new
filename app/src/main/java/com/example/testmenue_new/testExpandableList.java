@@ -25,9 +25,10 @@ public class testExpandableList extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         criteriaList = DefaultCriteriaList.getDefaultCriteriaList();
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_show_criteria);
+
+
         this.setTitle("ExpandableListView练习----hellogv");
 //        btnSuper=(Button)this.findViewById(R.id.btnSuper);
 //        btnSuper.setOnClickListener(new ClickEvent());
